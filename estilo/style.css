@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+nav {
+  position: relative;
+}
+
+nav .fundo {
+  max-width: 800px;
+  min-width: 350px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+nav .espada-direita, .espada-esquerda, .banner {
+  position: absolute;
+  top: 50%;
+}
+
+nav .espada-esquerda {
+  max-width: 50px;
+  left: 30%;
+}
+
+nav .banner {
+  max-width: 40px;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+nav .espada-direita {
+  max-width: 50px;
+  right: 30%;
+}
+
+nav .menu {
+  display: none;
+}
